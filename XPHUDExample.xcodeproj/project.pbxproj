@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F60651F020C0F39500DA2034 /* XPUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60651ED20C0F39500DA2034 /* XPUtils.swift */; };
-		F60651F120C0F39500DA2034 /* XPToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60651EE20C0F39500DA2034 /* XPToast.swift */; };
-		F60651F220C0F39500DA2034 /* XPHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60651EF20C0F39500DA2034 /* XPHUD.swift */; };
 		F606520120C0F3C700DA2034 /* XPHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F60651F820C0F3C600DA2034 /* XPHUD.framework */; };
 		F606520820C0F3C700DA2034 /* XPHUDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F606520720C0F3C700DA2034 /* XPHUDTests.swift */; };
-		F606520A20C0F3C700DA2034 /* XPHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = F60651FA20C0F3C700DA2034 /* XPHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F606520D20C0F3C700DA2034 /* XPHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F60651F820C0F3C600DA2034 /* XPHUD.framework */; };
 		F606520E20C0F3C700DA2034 /* XPHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F60651F820C0F3C600DA2034 /* XPHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F606521920C0F3DE00DA2034 /* XPToast.swift in Headers */ = {isa = PBXBuildFile; fileRef = F60651EE20C0F39500DA2034 /* XPToast.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		F606521A20C0F3DE00DA2034 /* XPUtils.swift in Headers */ = {isa = PBXBuildFile; fileRef = F60651ED20C0F39500DA2034 /* XPUtils.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		F606521B20C0F3DE00DA2034 /* XPHUD.swift in Headers */ = {isa = PBXBuildFile; fileRef = F60651EF20C0F39500DA2034 /* XPHUD.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		F606522020C0F50500DA2034 /* XPToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60651EE20C0F39500DA2034 /* XPToast.swift */; };
-		F606522120C0F50500DA2034 /* XPUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60651ED20C0F39500DA2034 /* XPUtils.swift */; };
-		F606522220C0F50500DA2034 /* XPHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60651EF20C0F39500DA2034 /* XPHUD.swift */; };
+		F606523020C11A1D00DA2034 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F606522E20C11A1C00DA2034 /* Info.plist */; };
+		F606523520C11A2B00DA2034 /* XPHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = F606523220C11A2B00DA2034 /* XPHUD.swift */; };
+		F606523620C11A2B00DA2034 /* XPToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F606523320C11A2B00DA2034 /* XPToast.swift */; };
+		F606523720C11A2B00DA2034 /* XPUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F606523420C11A2B00DA2034 /* XPUtils.swift */; };
+		F606523820C11A3E00DA2034 /* XPHUD.swift in Headers */ = {isa = PBXBuildFile; fileRef = F606523220C11A2B00DA2034 /* XPHUD.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F606523920C11A3E00DA2034 /* XPToast.swift in Headers */ = {isa = PBXBuildFile; fileRef = F606523320C11A2B00DA2034 /* XPToast.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F606523A20C11A3E00DA2034 /* XPUtils.swift in Headers */ = {isa = PBXBuildFile; fileRef = F606523420C11A2B00DA2034 /* XPUtils.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F606524E20C11BEF00DA2034 /* XPHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = F606523220C11A2B00DA2034 /* XPHUD.swift */; };
+		F606524F20C11BEF00DA2034 /* XPToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F606523320C11A2B00DA2034 /* XPToast.swift */; };
+		F606525020C11BEF00DA2034 /* XPUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F606523420C11A2B00DA2034 /* XPUtils.swift */; };
 		F64340EC20C0F35C00B65DCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64340EB20C0F35C00B65DCC /* AppDelegate.swift */; };
 		F64340EE20C0F35C00B65DCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64340ED20C0F35C00B65DCC /* ViewController.swift */; };
 		F64340F120C0F35C00B65DCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F64340EF20C0F35C00B65DCC /* Main.storyboard */; };
@@ -83,15 +83,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F60651ED20C0F39500DA2034 /* XPUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPUtils.swift; sourceTree = "<group>"; };
-		F60651EE20C0F39500DA2034 /* XPToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPToast.swift; sourceTree = "<group>"; };
-		F60651EF20C0F39500DA2034 /* XPHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPHUD.swift; sourceTree = "<group>"; };
 		F60651F820C0F3C600DA2034 /* XPHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XPHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F60651FA20C0F3C700DA2034 /* XPHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPHUD.h; sourceTree = "<group>"; };
-		F60651FB20C0F3C700DA2034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F606520020C0F3C700DA2034 /* XPHUDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XPHUDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F606520720C0F3C700DA2034 /* XPHUDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XPHUDTests.swift; sourceTree = "<group>"; };
 		F606520920C0F3C700DA2034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F606522E20C11A1C00DA2034 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F606522F20C11A1C00DA2034 /* XPHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPHUD.h; sourceTree = "<group>"; };
+		F606523220C11A2B00DA2034 /* XPHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPHUD.swift; sourceTree = "<group>"; };
+		F606523320C11A2B00DA2034 /* XPToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPToast.swift; sourceTree = "<group>"; };
+		F606523420C11A2B00DA2034 /* XPUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPUtils.swift; sourceTree = "<group>"; };
 		F64340E820C0F35C00B65DCC /* XPHUDExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XPHUDExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F64340EB20C0F35C00B65DCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F64340ED20C0F35C00B65DCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -148,25 +148,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F60651EC20C0F37E00DA2034 /* XPHUD */ = {
-			isa = PBXGroup;
-			children = (
-				F60651EE20C0F39500DA2034 /* XPToast.swift */,
-				F60651ED20C0F39500DA2034 /* XPUtils.swift */,
-				F60651EF20C0F39500DA2034 /* XPHUD.swift */,
-			);
-			path = XPHUD;
-			sourceTree = "<group>";
-		};
-		F60651F920C0F3C700DA2034 /* XPHUD */ = {
-			isa = PBXGroup;
-			children = (
-				F60651FA20C0F3C700DA2034 /* XPHUD.h */,
-				F60651FB20C0F3C700DA2034 /* Info.plist */,
-			);
-			path = XPHUD;
-			sourceTree = "<group>";
-		};
 		F606520620C0F3C700DA2034 /* XPHUDTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,14 +157,33 @@
 			path = XPHUDTests;
 			sourceTree = "<group>";
 		};
+		F606522D20C11A1C00DA2034 /* XPHUD */ = {
+			isa = PBXGroup;
+			children = (
+				F606522E20C11A1C00DA2034 /* Info.plist */,
+				F606522F20C11A1C00DA2034 /* XPHUD.h */,
+			);
+			path = XPHUD;
+			sourceTree = "<group>";
+		};
+		F606523120C11A2B00DA2034 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F606523220C11A2B00DA2034 /* XPHUD.swift */,
+				F606523320C11A2B00DA2034 /* XPToast.swift */,
+				F606523420C11A2B00DA2034 /* XPUtils.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		F64340DF20C0F35C00B65DCC = {
 			isa = PBXGroup;
 			children = (
-				F60651EC20C0F37E00DA2034 /* XPHUD */,
+				F606523120C11A2B00DA2034 /* Classes */,
 				F64340EA20C0F35C00B65DCC /* XPHUDExample */,
 				F64340FF20C0F35E00B65DCC /* XPHUDExampleTests */,
 				F643410A20C0F35E00B65DCC /* XPHUDExampleUITests */,
-				F60651F920C0F3C700DA2034 /* XPHUD */,
+				F606522D20C11A1C00DA2034 /* XPHUD */,
 				F606520620C0F3C700DA2034 /* XPHUDTests */,
 				F64340E920C0F35C00B65DCC /* Products */,
 			);
@@ -239,10 +239,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F606520A20C0F3C700DA2034 /* XPHUD.h in Headers */,
-				F606521920C0F3DE00DA2034 /* XPToast.swift in Headers */,
-				F606521A20C0F3DE00DA2034 /* XPUtils.swift in Headers */,
-				F606521B20C0F3DE00DA2034 /* XPHUD.swift in Headers */,
+				F606523820C11A3E00DA2034 /* XPHUD.swift in Headers */,
+				F606523920C11A3E00DA2034 /* XPToast.swift in Headers */,
+				F606523A20C11A3E00DA2034 /* XPUtils.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +411,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F606523020C11A1D00DA2034 /* Info.plist in Resources */,
 				F64340F620C0F35E00B65DCC /* LaunchScreen.storyboard in Resources */,
 				F64340F320C0F35E00B65DCC /* Assets.xcassets in Resources */,
 				F64340F120C0F35C00B65DCC /* Main.storyboard in Resources */,
@@ -439,9 +439,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F606522020C0F50500DA2034 /* XPToast.swift in Sources */,
-				F606522120C0F50500DA2034 /* XPUtils.swift in Sources */,
-				F606522220C0F50500DA2034 /* XPHUD.swift in Sources */,
+				F606524E20C11BEF00DA2034 /* XPHUD.swift in Sources */,
+				F606524F20C11BEF00DA2034 /* XPToast.swift in Sources */,
+				F606525020C11BEF00DA2034 /* XPUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,11 +457,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F60651F020C0F39500DA2034 /* XPUtils.swift in Sources */,
-				F60651F220C0F39500DA2034 /* XPHUD.swift in Sources */,
 				F64340EE20C0F35C00B65DCC /* ViewController.swift in Sources */,
 				F64340EC20C0F35C00B65DCC /* AppDelegate.swift in Sources */,
-				F60651F120C0F39500DA2034 /* XPToast.swift in Sources */,
+				F606523720C11A2B00DA2034 /* XPUtils.swift in Sources */,
+				F606523520C11A2B00DA2034 /* XPHUD.swift in Sources */,
+				F606523620C11A2B00DA2034 /* XPToast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
