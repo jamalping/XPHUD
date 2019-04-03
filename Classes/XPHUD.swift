@@ -135,7 +135,10 @@ public class HUD: UIView {
 }
 
 // 考虑到可能同时存在多个HUD，引入控制工具提供控制，一个控制工具管理一个HUD对象
-public class XPHUDUtils: NSObject{
+public class XPHUDUtils {
+    
+    static var share: XPHUDUtils = XPHUDUtils()
+    private init() {}
     
     private weak var hud: HUD?
     private var disposable: XPDisposable? {

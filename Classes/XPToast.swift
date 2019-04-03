@@ -72,7 +72,7 @@ final public class XPToast {
             self.shareInstance.statusShowing()
         }, completion: nil)
         
-        self.shareInstance.disposable = delayerOnMain(delay: self.shareInstance.animaDuration) {
+        self.shareInstance.disposable = delayerOnMain(delay: self.shareInstance.showTime) {
             self.dismiss()
         }
         
