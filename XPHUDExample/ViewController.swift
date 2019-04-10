@@ -22,10 +22,12 @@ class ViewController: UIViewController {
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        XPHUDUtils.share.showHUD(message: "sdfdgfsddgfefgdfsf")
-        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now()+2) {
-            XPHUDUtils.share.hideHUD()
-        }
+        XPToast.show("sfdgsdfgdsfgdsfgdsfgdsfgsdfgsdsfdgsdfgdsfgdsfgdsfgdsfgsdfgsdsfdgsdfgdsfgdsfgdsfgdsfgsdfgsdsfdgsdfgdsfgdsfgdsfgdsfgsdfgsd")
+        
+//        XPHUDUtils.share.showHUD(message: "sdfdgfsddgfefgdfsf")
+//        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now()+2) {
+//            XPHUDUtils.share.hideHUD()
+//        }
         
     }
 

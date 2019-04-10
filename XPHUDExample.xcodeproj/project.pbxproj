@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180B3895225DBCED00275364 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F64340F720C0F35E00B65DCC /* Info.plist */; };
 		F606520120C0F3C700DA2034 /* XPHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F60651F820C0F3C600DA2034 /* XPHUD.framework */; };
 		F606520820C0F3C700DA2034 /* XPHUDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F606520720C0F3C700DA2034 /* XPHUDTests.swift */; };
 		F606520D20C0F3C700DA2034 /* XPHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F60651F820C0F3C600DA2034 /* XPHUD.framework */; };
 		F606520E20C0F3C700DA2034 /* XPHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F60651F820C0F3C600DA2034 /* XPHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F606523020C11A1D00DA2034 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F606522E20C11A1C00DA2034 /* Info.plist */; };
 		F606523520C11A2B00DA2034 /* XPHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = F606523220C11A2B00DA2034 /* XPHUD.swift */; };
 		F606523620C11A2B00DA2034 /* XPToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F606523320C11A2B00DA2034 /* XPToast.swift */; };
 		F606523720C11A2B00DA2034 /* XPUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F606523420C11A2B00DA2034 /* XPUtils.swift */; };
@@ -411,7 +411,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F606523020C11A1D00DA2034 /* Info.plist in Resources */,
+				180B3895225DBCED00275364 /* Info.plist in Resources */,
 				F64340F620C0F35E00B65DCC /* LaunchScreen.storyboard in Resources */,
 				F64340F320C0F35E00B65DCC /* Assets.xcassets in Resources */,
 				F64340F120C0F35C00B65DCC /* Main.storyboard in Resources */,
@@ -746,6 +746,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = XPHUDExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -764,6 +765,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = XPHUDExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
