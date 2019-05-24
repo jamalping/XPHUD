@@ -30,7 +30,7 @@ public class HUD: UIView {
     
     /// 菊花
     private lazy var indicatorView: UIActivityIndicatorView = {
-        let indicatorView = UIActivityIndicatorView(activityIndicatorStyle: .whiteLarge)
+        let indicatorView = UIActivityIndicatorView(style: .whiteLarge)
         return indicatorView
     }()
     

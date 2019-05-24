@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		180B3895225DBCED00275364 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F64340F720C0F35E00B65DCC /* Info.plist */; };
 		F606520120C0F3C700DA2034 /* XPHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F60651F820C0F3C600DA2034 /* XPHUD.framework */; };
 		F606520820C0F3C700DA2034 /* XPHUDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F606520720C0F3C700DA2034 /* XPHUDTests.swift */; };
 		F606520D20C0F3C700DA2034 /* XPHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F60651F820C0F3C600DA2034 /* XPHUD.framework */; };
@@ -355,6 +354,7 @@
 					};
 					F60651FF20C0F3C700DA2034 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1010;
 						TestTargetID = F64340E720C0F35C00B65DCC;
 					};
 					F64340E720C0F35C00B65DCC = {
@@ -362,10 +362,12 @@
 					};
 					F64340FB20C0F35E00B65DCC = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1010;
 						TestTargetID = F64340E720C0F35C00B65DCC;
 					};
 					F643410620C0F35E00B65DCC = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1010;
 						TestTargetID = F64340E720C0F35C00B65DCC;
 					};
 				};
@@ -411,7 +413,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				180B3895225DBCED00275364 /* Info.plist in Resources */,
 				F64340F620C0F35E00B65DCC /* LaunchScreen.storyboard in Resources */,
 				F64340F320C0F35E00B65DCC /* Assets.xcassets in Resources */,
 				F64340F120C0F35C00B65DCC /* Main.storyboard in Resources */,
@@ -551,7 +552,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.worldunion.XPHUD;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -579,7 +580,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.worldunion.XPHUD;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -600,7 +601,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.worldunion.XPHUDTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XPHUDExample.app/XPHUDExample";
 			};
@@ -619,7 +620,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.worldunion.XPHUDTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XPHUDExample.app/XPHUDExample";
 			};
@@ -682,6 +683,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -735,6 +737,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -753,7 +756,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.worldunion.XPHUDExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -772,7 +775,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.worldunion.XPHUDExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -791,7 +794,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.worldunion.XPHUDExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XPHUDExample.app/XPHUDExample";
 			};
@@ -811,7 +814,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.worldunion.XPHUDExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XPHUDExample.app/XPHUDExample";
 			};
@@ -830,7 +833,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.worldunion.XPHUDExampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = XPHUDExample;
 			};
@@ -849,7 +852,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.worldunion.XPHUDExampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = XPHUDExample;
 			};

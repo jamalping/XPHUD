@@ -47,7 +47,7 @@ final public class XPToast {
         let screenWidth = uiScreenSize.width
         let screenHeight = uiScreenSize.height
         
-        let rect = (message as NSString).boundingRect(with: CGSize.init(width: screenWidth * 0.7, height: screenHeight * 0.4), options: NSStringDrawingOptions.usesLineFragmentOrigin, attributes: [NSAttributedStringKey.font: label.font], context: nil)
+        let rect = (message as NSString).boundingRect(with: CGSize.init(width: screenWidth * 0.7, height: screenHeight * 0.4), options: NSStringDrawingOptions.usesLineFragmentOrigin, attributes: [NSAttributedString.Key.font: label.font], context: nil)
         
         let lableY: CGFloat = 10
         let lableX = min(rect.height / 2, 20) + lableY
@@ -63,7 +63,7 @@ final public class XPToast {
         window.frame = CGRect.init(x: x, y: y, width: width, height: height)
         window.layer.cornerRadius = 8
         window.backgroundColor = UIColor(white: 0, alpha: 0.7)
-        window.windowLevel = UIWindowLevelAlert
+        window.windowLevel = UIWindow.Level.alert
         window.isHidden = false
         window.addSubview(label)
         
