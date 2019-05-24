@@ -73,31 +73,33 @@ public class HUD: UIView {
         msgLable.frame = CGRect.init(x: 10, y: indicatorY + indicatorSize.height + indicatorAndLabelSplit, width: width - 10*2, height: labelSize.height)
     }
     
-    /** 显示方法，调用该方法，这个界面将显示 **/
-    
     /// 显示方法，调用该方法，这个界面将显示
     func show(){
-        let _window = UIWindow()
-        self._window = _window
-        _window.frame = UIScreen.main.bounds
-        _window.backgroundColor = UIColor.clear
-        _window.windowLevel = UIWindowLevelAlert
-        _window.alpha = 1
-        _window.isHidden = false
-        _window.addSubview(self)
-        
-        statusShowBefore()
-        UIView.animate(withDuration: HUD.animDuration) {
-            self.statusShowing()
+        DispatchQueue.main.async {
+            let _window = UIWindow()
+            self._window = _window
+            _window.frame = UIScreen.main.bounds
+            _window.backgroundColor = UIColor.clear
+            _window.windowLevel = UIWindow.Level.alert
+            _window.alpha = 1
+            _window.isHidden = false
+            _window.addSubview(self)
+            
+            self.statusShowBefore()
+            UIView.animate(withDuration: HUD.animDuration) {
+                self.statusShowing()
+            }
         }
     }
     
     /** 消失方法，调用该方法，这个界面将消失 **/
     func dismiss(){
-        UIView.animate(withDuration: HUD.animDuration, animations: {
-            self.statusDismiss()
-        }) { (_) in
-            self.remove_windowAction()
+        DispatchQueue.main.async {
+            UIView.animate(withDuration: HUD.animDuration, animations: {
+                self.statusDismiss()
+            }) { (_) in
+                self.remove_windowAction()
+            }
         }
     }
     
